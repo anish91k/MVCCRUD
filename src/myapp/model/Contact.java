@@ -1,13 +1,12 @@
 package myapp.model;
 
 public class Contact {
+
+	String empID,empName,mobileNo,officeNo,homeNo,email;
+public Contact()
+{
 	
-	String empID, empName, mobileNo, officeNo, homeNo, email;
-	
-	public Contact()
-	{
-	
-	}
+}
 	public Contact(String empID, String empName, String mobileNo, String officeNo, String homeNo, String email) {
 		super();
 		this.empID = empID;
@@ -65,5 +64,6 @@ public class Contact {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+   
 
-}
+	}
